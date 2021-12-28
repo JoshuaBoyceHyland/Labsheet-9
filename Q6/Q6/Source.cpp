@@ -1,7 +1,7 @@
 // Joshua Boyce Hyland
 // ID: C00270197
 // Time started 19:20
-// Time finished
+// Time finished 19:34
 // Date: 28/12/21
 //------------------------------------------
 // Program will intake as mant numbers as user want to enter an dend when user inputs a 0 and give them back the sum of all the numbers inputed
