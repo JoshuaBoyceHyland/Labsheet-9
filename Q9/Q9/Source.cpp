@@ -1,6 +1,6 @@
 // Joshua Boyce Hyland 
 // ID: C00270917
-// Time taken 1hr 33mins
+// Time taken 1hr 34mins
 // Date: 31/12/21 & 01/01/22
 //------------------------------
 // Program will ask user for how many numbers it would like to enter and then give back the smallest number and largest number and the amount of times it happened 
@@ -23,8 +23,7 @@ void countOccurences()
 	int largest = 0; 
 	int smallCount = 0; 
 	int largeCount = 0; 
-	int previousSmall = 0; 
-	int previousLarge = 0; 
+	 
 
 	std::cout << "How many numbers would you like to enter, within 1 to 10?" << std::endl; 
 
