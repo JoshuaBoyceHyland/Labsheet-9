@@ -1,6 +1,6 @@
 // Joshua Boyce Hyland 
 // ID: C00270917
-// Time taken 1hr 34mins
+// Time taken 1hr 36mins
 // Date: 31/12/21 & 01/01/22
 //------------------------------
 // Program will ask user for how many numbers it would like to enter and then give back the smallest number and largest number and the amount of times it happened 
@@ -52,13 +52,9 @@ void countOccurences()
 		{
 			smallest = num; 
 		}
-		if (smallest>num)// resets the count if greater number is entered
+		if (smallest>num)// resets the count if greater number is entered and assigns it as the smallest 
 		{
 			smallCount = 0;
-		}
-		
-		if (smallest > num)
-		{
 			smallest = num; 
 		}
 		
@@ -71,14 +67,12 @@ void countOccurences()
 		{
 			largest = num; 
 		}
-		if (largest < num)//  resets the count if a higher number is entered
+		if (largest < num)//  resets the count if a higher number is entered and assigns the new number as the largest 
 		{
 			largeCount = 0; 
-		}
-		if (largest < num)
-		{
 			largest = num; 
 		}
+		
 		
 		if (largest == num)// ups the count if highest reappears 
 		{
